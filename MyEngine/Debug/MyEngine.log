@@ -1,0 +1,121 @@
+﻿Build started 1/26/2017 11:39:26 AM.
+     1>Project "C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\MyEngine\MyEngine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\MyEngine\ /IC:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\MyEngine\..\include /IC:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\MyEngine\..\glew\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AABB.cpp BulletController.cpp Camera.cpp CheckerController.cpp Circle.cpp CollideEvent.cpp CollisionManager.cpp Contact.cpp DustController.cpp EnemyAlienController.cpp EnemyController.cpp Game.cpp GameState.cpp GLModelSquare.cpp GLModelBase.cpp GLModelCircle.cpp GLObjectBase.cpp GLObjectFactory.cpp GLObjectSquare.cpp GLObjectCircle.cpp InputManager.cpp Math3D.cpp Matrix3D.cpp OrbController.cpp PlayerHitEvent.cpp RollingTabletData.cpp RoulletteComponent.cpp Shader.cpp Shape.cpp Component.cpp ControllerComponent.cpp Entity.cpp EventManager.cpp FramerateController.cpp InverseControllerComponent.cpp main.cpp MoveEvent.cpp MyWindowComponent.cpp PhysicsComponent.cpp PhysicsManager.cpp ResourceManager.cpp SARendererComponent.cpp ShootEvent.cpp ShootEventP2.cpp Texture.cpp TextureUnitFactory.cpp TransformComponent.cpp Vector3D.cpp
+         Vector3D.cpp
+         TransformComponent.cpp
+         TextureUnitFactory.cpp
+         Texture.cpp
+         ShootEventP2.cpp
+         ShootEvent.cpp
+         SARendererComponent.cpp
+         ResourceManager.cpp
+         PhysicsManager.cpp
+         PhysicsComponent.cpp
+         MyWindowComponent.cpp
+         MoveEvent.cpp
+         main.cpp
+         InverseControllerComponent.cpp
+     1>c:\users\mariojulio.zaldivar\downloads\firstengineever\myengine\inversecontrollercomponent.cpp(55): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         FramerateController.cpp
+         EventManager.cpp
+         Entity.cpp
+         ControllerComponent.cpp
+     1>c:\users\mariojulio.zaldivar\downloads\firstengineever\myengine\controllercomponent.cpp(61): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Component.cpp
+         Shape.cpp
+         Generating Code...
+         Compiling...
+         Shader.cpp
+         RoulletteComponent.cpp
+         RollingTabletData.cpp
+         PlayerHitEvent.cpp
+         OrbController.cpp
+         Matrix3D.cpp
+         Math3D.cpp
+         InputManager.cpp
+     1>c:\users\mariojulio.zaldivar\downloads\firstengineever\myengine\inputmanager.cpp(47): warning C4800: 'const Uint8' : forcing value to bool 'true' or 'false' (performance warning)
+         GLObjectCircle.cpp
+         GLObjectSquare.cpp
+         GLObjectFactory.cpp
+         GLObjectBase.cpp
+         GLModelCircle.cpp
+         GLModelBase.cpp
+         GLModelSquare.cpp
+         GameState.cpp
+         Game.cpp
+     1>c:\users\mariojulio.zaldivar\downloads\firstengineever\myengine\game.cpp(30): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         EnemyController.cpp
+         EnemyAlienController.cpp
+         DustController.cpp
+         Generating Code...
+         Compiling...
+         Contact.cpp
+         CollisionManager.cpp
+         CollideEvent.cpp
+         Circle.cpp
+         CheckerController.cpp
+         Camera.cpp
+         BulletController.cpp
+         AABB.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\MyEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\MyEngine\..\lib /LIBPATH:C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\MyEngine\..\glew\lib\Release\Win32 SDL2.lib SDL2main.lib SDL2test.lib opengl32.lib glew32.lib GLu32.lib SOIL.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\MyEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\MyEngine.lib" /MACHINE:X86 Debug\AABB.obj
+         Debug\BulletController.obj
+         Debug\Camera.obj
+         Debug\CheckerController.obj
+         Debug\Circle.obj
+         Debug\CollideEvent.obj
+         Debug\CollisionManager.obj
+         Debug\Contact.obj
+         Debug\DustController.obj
+         Debug\EnemyAlienController.obj
+         Debug\EnemyController.obj
+         Debug\Game.obj
+         Debug\GameState.obj
+         Debug\GLModelSquare.obj
+         Debug\GLModelBase.obj
+         Debug\GLModelCircle.obj
+         Debug\GLObjectBase.obj
+         Debug\GLObjectFactory.obj
+         Debug\GLObjectSquare.obj
+         Debug\GLObjectCircle.obj
+         Debug\InputManager.obj
+         Debug\Math3D.obj
+         Debug\Matrix3D.obj
+         Debug\OrbController.obj
+         Debug\PlayerHitEvent.obj
+         Debug\RollingTabletData.obj
+         Debug\RoulletteComponent.obj
+         Debug\Shader.obj
+         Debug\Shape.obj
+         Debug\Component.obj
+         Debug\ControllerComponent.obj
+         Debug\Entity.obj
+         Debug\EventManager.obj
+         Debug\FramerateController.obj
+         Debug\InverseControllerComponent.obj
+         Debug\main.obj
+         Debug\MoveEvent.obj
+         Debug\MyWindowComponent.obj
+         Debug\PhysicsComponent.obj
+         Debug\PhysicsManager.obj
+         Debug\ResourceManager.obj
+         Debug\SARendererComponent.obj
+         Debug\ShootEvent.obj
+         Debug\ShootEventP2.obj
+         Debug\Texture.obj
+         Debug\TextureUnitFactory.obj
+         Debug\TransformComponent.obj
+         Debug\Vector3D.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\SOIL.pdb'; linking object as if no debug info
+         MyEngine.vcxproj -> C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\Debug\MyEngine.exe
+     1>Done Building Project "C:\Users\mariojulio.zaldivar\Downloads\FirstEngineEver\MyEngine\MyEngine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.08

@@ -1,0 +1,12 @@
+ShooterRight
+Renderer
+shooterP2.bmp
+Transform
+900.0 320.0 40.0 15.0 180.0
+Physics
+0.0 0.0
+0.0 1.0
+0.0
+AABB
+-40.0 -15.0 40.0 15.0
+StandardController

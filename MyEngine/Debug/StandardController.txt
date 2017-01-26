@@ -1,0 +1,10 @@
+Component: 
+Physics
+Contains: 
+Attribute: Velocity 15
+SubComponent: Transform
+SubComponentAttribute: X 0
+SubComponentAttribute: Y 0
+SubComponentAttribute: Width 0
+SubComponentAttribute: Heigth 0
+

@@ -1,0 +1,13 @@
+Enem2Alien
+Renderer
+frozy.bmp
+Transform
+650.0 -50.0 20.0 20.0 0.0
+Physics
+0.0 0.0
+1.0 1.0
+0.0
+AABB
+-20.0 -20.0 20.0 20.0
+Enem2Alien
+450.0 -50.0 200.0 0.0

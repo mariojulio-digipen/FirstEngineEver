@@ -1,0 +1,11 @@
+Pipe4
+Renderer
+tubeBottom.bmp
+Transform
+750.0 900.0 70.0 35.0 0.0
+Physics
+0.0 0.0
+0.0 0.0
+0.0
+AABB
+-70.0 -35.0 70.0 35.0

@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{727430ac-793c-4e63-b477-61736510a70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{58d630cf-4b84-44d5-ae2b-7c1586561d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Entities">
+      <UniqueIdentifier>{7028a09c-680d-4e77-9922-bae911762d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Entities\Components">
+      <UniqueIdentifier>{7026dee7-c77f-49a8-80fd-6f7277e05086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Input">
+      <UniqueIdentifier>{551a2f92-2e86-47dc-b226-05b3be61521f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Levels">
+      <UniqueIdentifier>{25998b51-2d08-40f3-91fb-b15b6e695b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Objects">
+      <UniqueIdentifier>{f107b3e8-3570-4f7f-8379-99bb608614cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Events">
+      <UniqueIdentifier>{ed3d5066-86a0-40ae-89a9-d5ccc5cfe1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Physics">
+      <UniqueIdentifier>{558c323e-583e-41dc-80d2-4dc418f9bdfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\WindowSystem">
+      <UniqueIdentifier>{65a87090-880d-47f2-a1c1-4d35184f81e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Objects\EntitiesFiles">
+      <UniqueIdentifier>{0f2ca295-0437-4cb4-830d-8fe27c0a0a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Math">
+      <UniqueIdentifier>{ee2f8977-6369-4005-ba8e-2832a36da128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics">
+      <UniqueIdentifier>{3da086da-53bb-412f-b6f8-63714f1a8439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\GraphUtils">
+      <UniqueIdentifier>{18c6d711-95ba-44a9-88c8-38365e16b0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\Shaders">
+      <UniqueIdentifier>{0aa4b744-8db6-4197-b827-51e1a8d07259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Level1">
+      <UniqueIdentifier>{57c2356e-5f4b-4675-a660-6ad09ffb7101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\EntitiesGraphs">
+      <UniqueIdentifier>{c736752a-7b6b-40e5-81c7-3b507235d4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\EntitiesGraphs\Models">
+      <UniqueIdentifier>{4625a05e-2e19-4a52-ba4c-73b589716b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\EntitiesGraphs\Objects">
+      <UniqueIdentifier>{3f3c45d8-08bb-4f7c-8de8-02c1a210ce36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Objects\LevelsFiles">
+      <UniqueIdentifier>{faa2dd62-5671-48c4-ad4b-9543d4bfe8f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SARendererComponent.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerComponent.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InverseControllerComponent.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Engine\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveEvent.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Contact.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideEvent.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHitEvent.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="FramerateController.cpp">
+      <Filter>Source Files\Engine\WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Engine\Graphics\GraphUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math3D.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3D.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine\Graphics\GraphUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="RoulletteComponent.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GLModelSquare.cpp">
+      <Filter>Source Files\Engine\Graphics\EntitiesGraphs\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GLModelCircle.cpp">
+      <Filter>Source Files\Engine\Graphics\EntitiesGraphs\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GLObjectCircle.cpp">
+      <Filter>Source Files\Engine\Graphics\EntitiesGraphs\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GLObjectSquare.cpp">
+      <Filter>Source Files\Engine\Graphics\EntitiesGraphs\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GLObjectBase.cpp">
+      <Filter>Source Files\Engine\Graphics\EntitiesGraphs\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GLObjectFactory.cpp">
+      <Filter>Source Files\Engine\Graphics\EntitiesGraphs</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWindowComponent.cpp">
+      <Filter>Source Files\Engine\WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootEvent.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootEventP2.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletController.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RollingTabletData.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckerController.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Engine\Graphics\GraphUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyController.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GLModelBase.cpp">
+      <Filter>Source Files\Engine\Graphics\EntitiesGraphs\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAlienController.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DustController.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbController.cpp">
+      <Filter>Source Files\Engine\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureUnitFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDL_Setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FramerateController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoardInputComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWindowComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SARendererComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IKeyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InverseControllerComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentsList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHitEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoulletteComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLModelCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLObjectCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLModelBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLModelSquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLObjectSquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLObjectBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootEventP2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RollingTabletData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckerController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAlienController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DustController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureUnitFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ShooterRight.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="ShooterLeft.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Checker.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="ControlsScreen.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="PlayerLeftWinPic.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="PlayerRightWinPic.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Enemy1TopLeft.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Enemy1BottomLeft.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Enemy1TopRight.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Enemy1BottomRight.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Enem2Alien.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Dust.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Pipe1.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Pipe2.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Pipe3.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Pipe4.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Bullet1.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Bullet2.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Orb.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="TurboFeedback.txt">
+      <Filter>Source Files\Engine\Objects\EntitiesFiles</Filter>
+    </Text>
+    <Text Include="Level1.txt">
+      <Filter>Source Files\Engine\Objects\LevelsFiles</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DebugSquare.vertex">
+      <Filter>Source Files\Engine\Graphics\Shaders</Filter>
+    </None>
+    <None Include="DebugCircle.vertex">
+      <Filter>Source Files\Engine\Graphics\Shaders</Filter>
+    </None>
+    <None Include="DebugCircle.fragment">
+      <Filter>Source Files\Engine\Graphics\Shaders</Filter>
+    </None>
+    <None Include="DebugSquare.fragment">
+      <Filter>Source Files\Engine\Graphics\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

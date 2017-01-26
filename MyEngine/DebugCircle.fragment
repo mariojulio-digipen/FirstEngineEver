@@ -1,0 +1,8 @@
+#version 140
+
+uniform vec3 CircleColor;
+
+void main() 
+{ 
+	gl_FragColor.xyz = CircleColor; 
+}

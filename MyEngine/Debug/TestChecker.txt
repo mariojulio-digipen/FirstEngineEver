@@ -1,0 +1,12 @@
+TestChecker
+Renderer
+blacky30.bmp
+Transform
+320.0 10.0 40.0 40.0 0.0
+Physics
+0.0 0.0
+1.0 1.0
+0.0
+CIRCLE
+20
+StandardController

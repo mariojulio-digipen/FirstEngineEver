@@ -1,0 +1,11 @@
+PlayerRightWinPic
+Renderer
+RightWin.bmp
+Transform
+700.0 70.0 166.0 70.0 0.0
+Physics
+0.0 0.0
+0.0 0.0
+0.0
+AABB
+0.0 0.0 0.0 0.0

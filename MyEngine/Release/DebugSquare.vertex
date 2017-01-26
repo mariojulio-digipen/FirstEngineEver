@@ -1,0 +1,23 @@
+#version 140
+
+in vec3 LVertexPos3D;
+in vec3 colorPos;
+in vec2 texturePos;
+
+uniform mat4 ModelMatrix;
+uniform mat4 ViewMatrix;
+uniform mat4 ProjectionMatrix;
+
+//out vec3 daColor;
+out vec2 daTextCoords;
+
+
+void main() 
+{ 
+	vec4 vertex = vec4( LVertexPos3D.x, LVertexPos3D.y, LVertexPos3D.z, 1);
+
+	gl_Position = ProjectionMatrix * ViewMatrix * ModelMatrix * vertex;
+	//daColor = colorPos;
+
+	daTextCoords = vec2(1.0 - texturePos.s, texturePos.t);
+}

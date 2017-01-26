@@ -1,0 +1,18 @@
+ShooterLeft
+ShooterRight
+Camera
+0.0 0.0 0.0
+Enemy1TopRight
+Enemy1TopLeft
+Enemy1BottomLeft
+Enemy1BottomRight
+Enem2Alien
+ControlsScreen
+Pipe1
+Pipe2
+Pipe3
+Pipe4
+PlayerLeftWinPic
+PlayerRightWinPic
+Checker
+Orb

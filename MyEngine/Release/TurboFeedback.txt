@@ -1,0 +1,11 @@
+TurboFeedback
+Renderer
+LeftWin.bmp
+Transform
+-50.0 -50.0 166.0 26.0 0.0
+Physics
+0.0 0.0
+1.0 0.0
+0.0
+AABB
+0.0 0.0 0.0 0.0

@@ -1,0 +1,15 @@
+Checker1
+Renderer
+blacky30.bmp
+Transform
+450.0 450.0 40.0 40.0 0.0
+Physics
+0.0 0.0
+1.0 1.0
+0.0
+CIRCLE
+20
+Roullette
+450.0 225.0 0.0 -1.0 200.0
+CheckerController
+0

@@ -1,0 +1,13 @@
+Orb
+Renderer
+orb.bmp
+Transform
+250.0 40.0 15.0 15.0 0.0
+Physics
+0.0 0.0
+1.0 1.0
+0.0
+AABB
+-14.0 -14.0 14.0 14.0
+OrbController
+250.0 650.0 40.0 425.0 10.0 7.0

@@ -1,0 +1,12 @@
+ShooterLeft
+Renderer
+blob30.bmp
+Transform
+0.0 100.0 40.0 10.0 0.0
+Physics
+0.0 0.0
+1.0 1.0
+0.0
+AABB
+-40.0 -40.0 15.0 15.0
+StandardController

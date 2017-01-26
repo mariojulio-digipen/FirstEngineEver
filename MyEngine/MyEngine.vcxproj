@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9EEB4A76-46CB-40FC-8874-20A22221156D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\include;$(ProjectDir)..\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\lib;$(ProjectDir)..\glew\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;opengl32.lib;glew32.lib;GLu32.lib;SOIL.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\include;$(ProjectDir)..\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;opengl32.lib;glew32.lib;GLu32.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\glew\lib\Release\Win32;$(ProjectDir)..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="BulletController.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CheckerController.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="CollideEvent.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="Contact.cpp" />
+    <ClCompile Include="DustController.cpp" />
+    <ClCompile Include="EnemyAlienController.cpp" />
+    <ClCompile Include="EnemyController.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GLModelSquare.cpp" />
+    <ClCompile Include="GLModelBase.cpp" />
+    <ClCompile Include="GLModelCircle.cpp" />
+    <ClCompile Include="GLObjectBase.cpp" />
+    <ClCompile Include="GLObjectFactory.cpp" />
+    <ClCompile Include="GLObjectSquare.cpp" />
+    <ClCompile Include="GLObjectCircle.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Math3D.cpp" />
+    <ClCompile Include="Matrix3D.cpp" />
+    <ClCompile Include="OrbController.cpp" />
+    <ClCompile Include="PlayerHitEvent.cpp" />
+    <ClCompile Include="RollingTabletData.cpp" />
+    <ClCompile Include="RoulletteComponent.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ControllerComponent.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="FramerateController.cpp" />
+    <ClCompile Include="InverseControllerComponent.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MoveEvent.cpp" />
+    <ClCompile Include="MyWindowComponent.cpp" />
+    <ClCompile Include="PhysicsComponent.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="SARendererComponent.cpp" />
+    <ClCompile Include="ShootEvent.cpp" />
+    <ClCompile Include="ShootEventP2.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureUnitFactory.cpp" />
+    <ClCompile Include="TransformComponent.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="BulletController.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CheckerController.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="CollideEvent.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="Contact.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="DustController.h" />
+    <ClInclude Include="EnemyAlienController.h" />
+    <ClInclude Include="EnemyController.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GLModelSquare.h" />
+    <ClInclude Include="GLModelBase.h" />
+    <ClInclude Include="GLModelCircle.h" />
+    <ClInclude Include="GLObjectBase.h" />
+    <ClInclude Include="GLObjectFactory.h" />
+    <ClInclude Include="GLObjectSquare.h" />
+    <ClInclude Include="GLObjectCircle.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Math3D.h" />
+    <ClInclude Include="Matrix3D.h" />
+    <ClInclude Include="OrbController.h" />
+    <ClInclude Include="PlayerHitEvent.h" />
+    <ClInclude Include="RollingTabletData.h" />
+    <ClInclude Include="RoulletteComponent.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentsList.h" />
+    <ClInclude Include="ControllerComponent.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityTypes.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="FramerateController.h" />
+    <ClInclude Include="IKeyManager.h" />
+    <ClInclude Include="InputComponent.h" />
+    <ClInclude Include="InverseControllerComponent.h" />
+    <ClInclude Include="KeyBoardInputComponent.h" />
+    <ClInclude Include="KeyInput.h" />
+    <ClInclude Include="KeyManager.h" />
+    <ClInclude Include="MoveActions.h" />
+    <ClInclude Include="MoveEvent.h" />
+    <ClInclude Include="MyWindowComponent.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="PhysicsManager.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="SARendererComponent.h" />
+    <ClInclude Include="SDL_Setup.h" />
+    <ClInclude Include="ShootEvent.h" />
+    <ClInclude Include="ShootEventP2.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureUnitFactory.h" />
+    <ClInclude Include="TransformComponent.h" />
+    <ClInclude Include="Vector3D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Bullet1.txt" />
+    <Text Include="Bullet2.txt" />
+    <Text Include="ControlsScreen.txt" />
+    <Text Include="Dust.txt" />
+    <Text Include="Enemy1BottomLeft.txt" />
+    <Text Include="Enemy1BottomRight.txt" />
+    <Text Include="Enemy1TopLeft.txt" />
+    <Text Include="Enemy1TopRight.txt" />
+    <Text Include="Enem2Alien.txt" />
+    <Text Include="Pipe1.txt" />
+    <Text Include="Pipe2.txt" />
+    <Text Include="Pipe3.txt" />
+    <Text Include="Pipe4.txt" />
+    <Text Include="PlayerLeftWinPic.txt" />
+    <Text Include="PlayerRightWinPic.txt" />
+    <Text Include="Orb.txt" />
+    <Text Include="ShooterLeft.txt" />
+    <Text Include="Checker.txt" />
+    <Text Include="ShooterRight.txt" />
+    <Text Include="Level1.txt" />
+    <Text Include="TurboFeedback.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DebugCircle.fragment" />
+    <None Include="DebugCircle.vertex" />
+    <None Include="DebugSquare.vertex" />
+    <None Include="DebugSquare.fragment" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
